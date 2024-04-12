@@ -32,22 +32,29 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![Screenshot 2024-04-12 083110](https://github.com/Saranyaaav/Enumeration/assets/144870813/614666c9-cd8b-4d6f-ad05-91eba5257b1c)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![Screenshot 2024-04-12 083253](https://github.com/Saranyaaav/Enumeration/assets/144870813/ed5da52b-86ca-4354-8b4b-2d4e0443c381)
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![Screenshot 2024-04-12 083502](https://github.com/Saranyaaav/Enumeration/assets/144870813/7252f164-0402-4871-afa5-6e843c3c46bc)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![Screenshot 2024-04-12 083935](https://github.com/Saranyaaav/Enumeration/assets/144870813/bd3eab1f-c2eb-49d9-b910-d4e6e99884bd)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![Screenshot 2024-04-12 084156](https://github.com/Saranyaaav/Enumeration/assets/144870813/d3b77647-ead9-4fa3-bb06-935ff0953115)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![Screenshot 2024-04-12 084407](https://github.com/Saranyaaav/Enumeration/assets/144870813/39942274-2abe-4b28-ad60-f5cd9f418f86)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![Screenshot 2024-04-12 084535](https://github.com/Saranyaaav/Enumeration/assets/144870813/6b97ea17-d79f-4067-8e73-d6d2331c3442)
 
  
 #DNS Enumeration
@@ -87,6 +94,7 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
+
 
 select any username in the first column of the above file and check the same
 
