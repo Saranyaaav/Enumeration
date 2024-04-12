@@ -76,7 +76,7 @@ Top level domain expansion
 
 
 
-##dnsenum
+## dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -93,8 +93,10 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 ![Screenshot_2024-04-12_09_18_59](https://github.com/Saranyaaav/Enumeration/assets/144870813/202e2a3d-8001-46ed-8d50-d350f03dc431)
 ![Screenshot_2024-04-12_09_19_11](https://github.com/Saranyaaav/Enumeration/assets/144870813/ec35cc04-0bde-4da6-8217-9f6ce3ea602c)
 
-##smtp-user-enum
+## smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+
+![Screenshot_2024-04-12_11_04_45](https://github.com/Saranyaaav/Enumeration/assets/144870813/aaa7ef2b-8658-4856-bc6a-9d31743c30c3)
 
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
@@ -109,12 +111,12 @@ select any username in the first column of the above file and check the same
 
 ![Screenshot_2024-04-12_09_27_46](https://github.com/Saranyaaav/Enumeration/assets/144870813/227c64ff-f614-4842-b7e4-8df621e3439a)
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
- ##Output
+ ## Output
 
   ![Screenshot_2024-04-12_10_20_09](https://github.com/Saranyaaav/Enumeration/assets/144870813/35413791-1d49-4082-a629-64a34b2cb16d)
 
