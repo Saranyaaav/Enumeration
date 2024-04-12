@@ -12,9 +12,13 @@ Investigate on the various Google hacking keywords and enumeration tools as foll
 Open terminal and try execute some kali linux commands
 ## Pen Test Tools Categories:  
 Following Categories of pen test tools are identified:
+
 Information Gathering.
+
 Google Hacking:
+
 Google hacking, also known as Google dorking, is a technique that involves using advanced operators to perform targeted searches on Google. These operators can be used to search for specific types of information, such as sensitive data that may have been inadvertently exposed on the web. Here are some advanced operators that can be used for Google hacking:
+
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 ![Screenshot 2024-04-12 083110](https://github.com/Saranyaaav/Enumeration/assets/144870813/614666c9-cd8b-4d6f-ad05-91eba5257b1c)
@@ -43,6 +47,7 @@ Top level domain expansion
 ![Screenshot_2024-04-12_09_19_29](https://github.com/Saranyaaav/Enumeration/assets/144870813/e53071fe-7909-4084-8b61-4bd60072d2ba)
 ## Dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
+
 Get the host’s addresses (A record).
 Get the namservers (threaded).
 Get the MX record (threaded).
