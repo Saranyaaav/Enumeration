@@ -57,16 +57,18 @@ cache: This operator allows you to view the cached version of a page. For exampl
 ![Screenshot 2024-04-12 084535](https://github.com/Saranyaaav/Enumeration/assets/144870813/6b97ea17-d79f-4067-8e73-d6d2331c3442)
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+## DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
 ## OUTPUT:
+![Screenshot_2024-04-12_09_18_29](https://github.com/Saranyaaav/Enumeration/assets/144870813/9193656a-d1e7-4a94-869a-83cb930d8910)
+![Screenshot_2024-04-12_09_19_29](https://github.com/Saranyaaav/Enumeration/assets/144870813/e53071fe-7909-4084-8b61-4bd60072d2ba)
 
 
 
@@ -88,6 +90,8 @@ Perform reverse lookups on netranges (C class or/and whois netranges) (threaded)
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
 
+![Screenshot_2024-04-12_09_18_59](https://github.com/Saranyaaav/Enumeration/assets/144870813/202e2a3d-8001-46ed-8d50-d350f03dc431)
+![Screenshot_2024-04-12_09_19_11](https://github.com/Saranyaaav/Enumeration/assets/144870813/ec35cc04-0bde-4da6-8217-9f6ce3ea602c)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
@@ -95,9 +99,15 @@ Username guessing tool primarily for use against the default Solaris SMTP servic
 
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
 
+![Screenshot_2024-04-12_10_38_24](https://github.com/Saranyaaav/Enumeration/assets/144870813/7ba9e846-7f52-498a-807d-7b4f065fc018)
+
+![Screenshot_2024-04-12_10_38_19](https://github.com/Saranyaaav/Enumeration/assets/144870813/36c52218-d449-43ec-a7c0-e4b3606a697d)
+
 
 select any username in the first column of the above file and check the same
 
+
+![Screenshot_2024-04-12_09_27_46](https://github.com/Saranyaaav/Enumeration/assets/144870813/227c64ff-f614-4842-b7e4-8df621e3439a)
 
 #Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
@@ -105,7 +115,9 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
-  
+
+  ![Screenshot_2024-04-12_10_20_09](https://github.com/Saranyaaav/Enumeration/assets/144870813/35413791-1d49-4082-a629-64a34b2cb16d)
+
   
 
 ## nmap –script smtp-enum-users.nse <hostname>
@@ -114,6 +126,8 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+![Screenshot_2024-04-12_09_53_52](https://github.com/Saranyaaav/Enumeration/assets/144870813/df690442-3e4d-4cb3-94dd-ab4932a7e25b)
 
 
 ## RESULT:
